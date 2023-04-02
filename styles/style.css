@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background:#23212A;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 45px;
+    
+}
+.header__logo{
+    font-family: "Orbitron";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #DDAC00;
+    text-transform: uppercase;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__item{
+    font-family: "Orbitron";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    padding-left: 40px;
+    color: #fff;
+}
+.header__item:hover{
+    color: #DDAC00;
+}
+.star__text-first{
+    font-family: "Orbitron";
+    font-weight: 400;
+    font-size: 57px;
+    line-height: 67px;
+    color: #fff;
+    width: 714px;
+    height: 196px;
+    text-transform: uppercase;
+    margin-top: 175px;
+}
+.star__text-second{
+    font-family: "Orbitron";
+    font-weight: 400;
+    font-size:16px;
+    line-height: 26px;
+    color: #fff;
+    width: 584px;
+    height: 52px;
+    opacity: 0.5;
+    padding-top: 30px;
+}
+.star__block{
+    display: flex;
+}
+.star__btn{
+    background: #fff;
+    font-family: "Orbitron";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    padding: 10px 16px;
+    border-radius: 6px;
+    margin-top: 100px;
+    
+}
+.star__btn:hover{
+    background: #DDAC00;
+}
+.star__block{
+    margin-left: 520px;
+}
+.star__image-shadow{
+    position: relative;
+    width: 536px;
+    height: 536px;
+    filter: drop-shadow(0px 8.4px 527.559px #003EDD);
+    background: rgba(217, 217, 217, 0.01);
+    box-shadow: inset 0px 0px 71.748px #003EDD;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    z-index: 10;
+    overflow: hidden;
+}
+.Star__blur{
+    position: absolute;
+    Width:466.36px;
+    Height:466.36px;
+    filter:blur(200.472px) ;
+    border-radius: 50%;
+    background: #003EDD;
+    margin-bottom: 500px;
+    z-index: -11;
+}
+.image{
+    height: 491px;
+    width: 491px;
+    border-radius: 50%;
+    mix-blend-mode: hard-light;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    margin-top: 125px;
+    margin-left: -510px;
+    z-index: -1;
+}
